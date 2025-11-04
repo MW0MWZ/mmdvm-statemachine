@@ -53,7 +53,7 @@ sudo useradd --system --user-group --create-home --shell /bin/bash mmdvm-api
 ```bash
 # Clone the repository
 cd /opt
-sudo git clone https://github.com/yourusername/mmdvm-statemachine.git
+sudo git clone https://github.com/MW0MWZ/mmdvm-statemachine.git
 sudo chown -R mmdvm-api:mmdvm-api mmdvm-statemachine
 
 # Switch to application user
@@ -176,7 +176,7 @@ sudo adduser -D -H -s /sbin/nologin mmdvm-api
 ```bash
 # Clone the repository
 cd /opt
-sudo git clone https://github.com/yourusername/mmdvm-statemachine.git
+sudo git clone https://github.com/MW0MWZ/mmdvm-statemachine.git
 sudo chown -R mmdvm-api:mmdvm-api mmdvm-statemachine
 
 # Change to application directory
@@ -437,7 +437,7 @@ This project is part of the MMDVMHost ecosystem and follows the same licensing t
 ## Support
 
 For issues, questions, or contributions:
-- Open an issue on GitHub
+- Open an issue on GitHub: https://github.com/MW0MWZ/mmdvm-statemachine/issues
 - Check existing documentation in the `docs/` directory
 - Review MMDVMHost documentation at https://github.com/g4klx/MMDVMHost
 

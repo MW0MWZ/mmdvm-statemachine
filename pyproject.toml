@@ -72,10 +72,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/mmdvm-statemachine"
-Documentation = "https://github.com/yourusername/mmdvm-statemachine/blob/main/README.md"
-Repository = "https://github.com/yourusername/mmdvm-statemachine"
-Issues = "https://github.com/yourusername/mmdvm-statemachine/issues"
+Homepage = "https://github.com/MW0MWZ/mmdvm-statemachine"
+Documentation = "https://github.com/MW0MWZ/mmdvm-statemachine/blob/main/README.md"
+Repository = "https://github.com/MW0MWZ/mmdvm-statemachine"
+Issues = "https://github.com/MW0MWZ/mmdvm-statemachine/issues"
 
 [project.scripts]
 mmdvm-statemachine = "mmdvm_statemachine.__main__:main"

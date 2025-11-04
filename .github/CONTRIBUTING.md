@@ -56,7 +56,7 @@ Enhancement suggestions are welcome! Please:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/mmdvm-statemachine.git
+git clone https://github.com/YOUR_USERNAME/mmdvm-statemachine.git
 cd mmdvm-statemachine
 
 # Create virtual environment

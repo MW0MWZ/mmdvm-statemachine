@@ -13,7 +13,9 @@ This guide will get you up and running with the MMDVMHost State Machine developm
 ### Step 1: Set Up Virtual Environment
 
 ```bash
-cd /Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine
+# Clone the repository
+git clone https://github.com/MW0MWZ/mmdvm-statemachine.git
+cd mmdvm-statemachine
 
 # Create virtual environment
 python3 -m venv venv

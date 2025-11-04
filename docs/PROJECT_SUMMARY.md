@@ -88,19 +88,19 @@ This document provides a comprehensive overview of the MMDVMHost State Machine p
 ### ✅ Phase 1: Core Infrastructure (COMPLETED)
 
 **Delivered Files:**
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/__init__.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/models.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/config.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/logging_setup.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/__main__.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/config.example.yaml`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/requirements.txt`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/README.md`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/DEVELOPMENT.md`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/.gitignore`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/tests/__init__.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/tests/test_models.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/tests/test_config.py`
+- `src/mmdvm_statemachine/__init__.py`
+- `src/mmdvm_statemachine/models.py`
+- `src/mmdvm_statemachine/config.py`
+- `src/mmdvm_statemachine/logging_setup.py`
+- `src/mmdvm_statemachine/__main__.py`
+- `config.example.yaml`
+- `requirements.txt`
+- `README.md`
+- `DEVELOPMENT.md`
+- `.gitignore`
+- `tests/__init__.py`
+- `tests/test_models.py`
+- `tests/test_config.py`
 
 **Key Features Implemented:**
 
@@ -455,23 +455,23 @@ All delivered code follows:
 All files created with absolute paths for reference:
 
 **Source Code:**
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/__init__.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/__main__.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/config.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/models.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/mmdvm_state_machine/logging_setup.py`
+- `src/mmdvm_statemachine/__init__.py`
+- `src/mmdvm_statemachine/__main__.py`
+- `src/mmdvm_statemachine/config.py`
+- `src/mmdvm_statemachine/models.py`
+- `src/mmdvm_statemachine/logging_setup.py`
 
 **Configuration:**
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/config.example.yaml`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/requirements.txt`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/.gitignore`
+- `config.example.yaml`
+- `requirements.txt`
+- `.gitignore`
 
 **Documentation:**
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/README.md`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/DEVELOPMENT.md`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/PROJECT_SUMMARY.md`
+- `README.md`
+- `DEVELOPMENT.md`
+- `PROJECT_SUMMARY.md`
 
 **Tests:**
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/tests/__init__.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/tests/test_models.py`
-- `/Users/ataylor/Library/CloudStorage/OneDrive-Personal/AI/MMDVMHost_State_Machine/tests/test_config.py`
+- `tests/__init__.py`
+- `tests/test_models.py`
+- `tests/test_config.py`

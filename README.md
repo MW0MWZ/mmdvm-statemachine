@@ -160,8 +160,8 @@ sudo journalctl -u mmdvm-statemachine -f
 # Update package index
 sudo apk update
 
-# Install Python 3 and build dependencies
-sudo apk add python3 py3-pip python3-dev gcc musl-dev linux-headers git
+# Install Python 3 and pip (no build tools needed - all pure Python)
+sudo apk add python3 py3-pip git
 ```
 
 #### 2. Create Application User (Optional but Recommended)

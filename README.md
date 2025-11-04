@@ -34,11 +34,8 @@ The MMDVM State Machine monitors MMDVMHost log files using inotify, maintains an
 # Update package index
 sudo apt update
 
-# Install Python 3.8+ and pip
-sudo apt install -y python3 python3-pip python3-venv
-
-# Install development headers (required for some Python packages)
-sudo apt install -y python3-dev build-essential
+# Install Python 3.8+ and pip (no build tools needed - all pure Python)
+sudo apt install -y python3 python3-pip python3-venv git
 ```
 
 #### 2. Create Application User (Optional but Recommended)

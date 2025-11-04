@@ -10,8 +10,10 @@ Be respectful, constructive, and professional in all interactions. This is an am
 
 ### Reporting Bugs
 
+Report bugs at: https://github.com/MW0MWZ/mmdvm-statemachine/issues
+
 Before creating a bug report:
-1. Check existing issues to avoid duplicates
+1. Check existing issues to avoid duplicates: https://github.com/MW0MWZ/mmdvm-statemachine/issues
 2. Verify you're using the latest version
 3. Test with the example configuration
 
@@ -33,7 +35,7 @@ Enhancement suggestions are welcome! Please:
 
 ### Pull Requests
 
-1. Fork the repository
+1. Fork the repository: https://github.com/MW0MWZ/mmdvm-statemachine
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes following the coding standards below
 4. Add or update tests as needed

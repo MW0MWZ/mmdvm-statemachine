@@ -1,0 +1,107 @@
+# MMDVMHost State Machine Configuration
+# Copy this file to config.yaml and adjust for your environment
+
+# Log file monitoring
+log_monitoring:
+  # Path pattern for MMDVM log files (supports wildcards and date patterns)
+  # Examples:
+  #   /var/log/mmdvm/MMDVM-*.log
+  #   /var/log/pi-star/MMDVM-*.log
+  log_path_pattern: "/var/log/mmdvm/MMDVM-*.log"
+
+  # Directory to watch for new log files (must exist)
+  log_directory: "/var/log/mmdvm"
+
+  # How often to check for new log files (seconds)
+  rotation_check_interval: 60
+
+  # Read buffer size (bytes)
+  read_buffer_size: 8192
+
+# State machine configuration
+state_machine:
+  # Number of recent QSOs to retain in memory
+  qso_history_size: 100
+
+  # QSO timeout - consider QSO ended if no activity for this many seconds
+  qso_timeout_seconds: 30
+
+  # Supported modes (auto-detected from logs)
+  supported_modes:
+    - DSTAR
+    - DMR
+    - YSF
+    - P25
+    - NXDN
+    - POCSAG
+    - FM
+    - IDLE
+
+# API server configuration
+api:
+  # Host to bind to (0.0.0.0 for all interfaces, 127.0.0.1 for localhost only)
+  host: "0.0.0.0"
+
+  # Port for REST API and WebSocket server
+  port: 8080
+
+  # Enable CORS (Cross-Origin Resource Sharing)
+  enable_cors: true
+
+  # Allowed CORS origins (if enable_cors is true)
+  cors_origins:
+    - "http://localhost"
+    - "http://localhost:3000"
+    - "http://localhost:8080"
+
+  # API authentication (set to true to require API keys)
+  require_auth: false
+
+  # API keys (if require_auth is true)
+  # Format: "key_name: key_value"
+  api_keys: {}
+    # dashboard: "your-secret-key-here"
+
+  # Rate limiting
+  rate_limit:
+    enabled: false
+    requests_per_minute: 60
+
+# WebSocket configuration
+websocket:
+  # Maximum number of concurrent WebSocket connections
+  max_connections: 50
+
+  # Ping interval for keepalive (seconds)
+  ping_interval: 30
+
+  # Connection timeout (seconds)
+  timeout: 300
+
+# Application logging
+logging:
+  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  level: "INFO"
+
+  # Log file path (null for stdout only)
+  file: "/var/log/mmdvm-state-machine/app.log"
+
+  # Log format
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+  # Log rotation
+  rotation:
+    enabled: true
+    max_bytes: 10485760  # 10 MB
+    backup_count: 5
+
+# Performance tuning
+performance:
+  # Use uvloop for better async performance (Linux only)
+  use_uvloop: true
+
+  # Number of worker processes (for uvicorn, typically 1 for this use case)
+  workers: 1
+
+  # Enable prometheus metrics
+  enable_metrics: false
